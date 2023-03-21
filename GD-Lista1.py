@@ -18,7 +18,6 @@ class NoLista:
     def __str__(self):
         return str(self.dado)
 
-
 class Lista:
     def __init__(self):
         self.firstNoLista = None
