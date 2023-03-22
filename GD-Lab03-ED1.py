@@ -1,6 +1,6 @@
 #Data: 22/03/2023
 #Author: Gabrielli Danker   Matéria: Estrutura de Dados I
-#Lista Simplismente Encadeada 
+#Lista Simplesmente Encadeada 
 
 class NoLista:
     def __init__(self, info=None, prox=None):
@@ -133,4 +133,55 @@ class Lista:
     def igualRecursivoAux(self, l1, l2):
         if l1 == None and l2 == None:
             return
+    
+def main():
+    list= Lista()
+    list.insere(1)
+    list.insere(2)
+    list.insere(3)
+    list.insere(4)
+    list.insere(5)
+    list.imprime()
+    print(list.busca(2))
+    print(list.busca(0))
+    print(list.comprimento())
+    print(list.ultimo())
 
+    list2= Lista()
+    list2.insere(5)
+    list2.insere(6)
+    list2.insere(7)
+    list2.insere(8)
+    list2.insere(9)
+    list2.imprime()
+    print(list2.busca(2))
+    print(list2.busca(0))
+    print(list2.comprimento())
+    print(list2.ultimo())
+
+    print(list.igual(list2))
+    
+    list.retira(4)
+    list.imprime()
+
+    list2.retira(6)
+    list2.imprime()
+
+    list.libera()
+    list.imprime()
+    list2.imprime()
+
+    list.insereFim(10)
+    list.insereFim(11)
+    list.insereFim(12)
+    list.insereFim(13)
+    list.insereFim(14)
+    list.imprimeRecursivo()
+
+    list.retiraRecursivo(11)
+    list.imprimeRecursivo()
+
+    print(list.igualRecursivo(list2))
+
+if __name__== "__main__":
+    main()
