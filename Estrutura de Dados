@@ -1,0 +1,17 @@
+
+Estrutura de dados é um ramo da ciência da computação que se preocupa com a organização, armazenamento e manipulação de dados de forma eficiente e eficaz. 
+Ela é essencial em muitas aplicações de computação, uma vez que permite armazenar e acessar grandes quantidades de dados de forma organizada e estruturada.
+
+As estruturas de dados são compostas por um conjunto de elementos, e cada elemento pode ser de um ou mais tipos. Esses elementos são organizados em 
+uma determinada forma, que permite o acesso, manipulação e busca dos dados de maneira eficiente. Existem várias estruturas de dados com diferentes 
+características e finalidades, como:
+
+    Listas: conjunto ordenado de elementos, em que cada elemento possui um sucessor e um antecessor;
+    Pilhas: estrutura LIFO (last-in, first-out), na qual o último elemento inserido é o primeiro a ser removido;
+    Filas: estrutura FIFO (first-in, first-out), na qual o primeiro elemento inserido é o primeiro a ser removido;
+    Árvores: estrutura hierárquica de elementos, na qual cada elemento possui um pai e zero ou mais filhos;
+    Grafos: estrutura composta por vértices (ou nós) conectados por arestas (ou arcos).
+
+Cada estrutura de dados tem suas próprias características, vantagens e desvantagens, e é importante escolher a estrutura adequada para cada situação.
+Por exemplo, uma lista encadeada pode ser útil para armazenar dados que precisam ser inseridos 
+e removidos frequentemente, enquanto uma árvore binária de busca pode ser adequada para realizar buscas eficientes em um grande conjunto de dados ordenados.
