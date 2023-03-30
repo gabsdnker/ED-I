@@ -18,8 +18,22 @@ def troca(lista, a, b):
     temp= lista[a]
     lista[a]= lista[b]
     lista[b]= temp
-
+    
 lista= [2,8,10,3,1]
 tamanho= len(lista)
 quickSort(lista, 0, tamanho-1)
 print(lista)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
