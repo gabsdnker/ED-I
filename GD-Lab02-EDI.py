@@ -2,6 +2,7 @@
 #Author: Gabrielli Danker   Matéria: Estrutura de Dados I
 #Lista Simplesmente Encadeada 
 
+
 class NoLista:
     def __init__(self, info=None, prox=None):
         self._info = info
