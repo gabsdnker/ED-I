@@ -7,6 +7,8 @@ class NoLista:
     def __init__(self, info=None, prox=None):
         self._info = info
         self._prox = prox
+
+
     
     def getInfo(self): #retorna o valor armazenado no nó.
         return self._info
@@ -20,6 +22,8 @@ class NoLista:
     def setProx(self, prox): #define o nó seguinte.
         self._prox = prox
 
+
+
 class Lista:
     def __init__(self): #método construtor que inicializa a lista vazia.
         self.prim = None
@@ -30,12 +34,16 @@ class Lista:
         novo.setProx(self.prim)
         self.prim = novo
     
+
+
     def imprime(self): #imprime os valores da lista.
         p = self.prim
         while p != None:
             print(p.getInfo(), end=" ")
             p = p.getProx()
         print()
+
+
     
     def vazia(self): #retorna True se a lista está vazia, False caso contrário.
         return self.prim == None
@@ -48,6 +56,8 @@ class Lista:
             p = p.getProx()
         return None
     
+
+
     def comprimento(self): #retorna o comprimento da lista (número de nós).
         p = self.prim
         cont = 0
@@ -78,4 +88,6 @@ class Lista:
     print(list.ultimo())
    
 if __name__== "__main__":
+
+
     main()
