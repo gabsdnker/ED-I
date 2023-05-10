@@ -7,5 +7,7 @@
 - ``C``
 - ``C++``
 - ``Algoritmos de Ordenação``
-- ``Lista Encadeada``
+- ``Lista Simplesmente Encadeada``
+- ``Lista Duplamente Encadeada``
+- ``Árvore Binária``
 - ``Programação orientada a objetos``
