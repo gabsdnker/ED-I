@@ -1,4 +1,4 @@
-# Estrutura-de-Dados-I
+# Estrutura de Dados I
 
 ## ✔️ Técnicas e tecnologias utilizadas
 
