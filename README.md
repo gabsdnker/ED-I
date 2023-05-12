@@ -10,4 +10,5 @@
 - ``Lista Simplesmente Encadeada``
 - ``Lista Duplamente Encadeada``
 - ``Árvore Binária``
+- ``Árvore N-ária``
 - ``Programação orientada a objetos``
