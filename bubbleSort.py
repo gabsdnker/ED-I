@@ -4,6 +4,12 @@ tam= len(lista)
 for i in range(0, tam-1):
     troca= 'false'
 
+    
+    
+    
+    
+    
+    
     for j in range (0, tam-1):
         if lista[j] > lista[j+1]:
             temp= lista[j]
