@@ -1,4 +1,3 @@
-#Data: 22/03/2023
 #Author: Gabrielli Danker   Matéria: Estrutura de Dados I
 #Lista Simplismente Encadeada 
 
