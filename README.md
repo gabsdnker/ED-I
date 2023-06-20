@@ -12,3 +12,7 @@
 - ``Árvore Binária``
 - ``Árvore N-ária``
 - ``Programação orientada a objetos``
+- ``Tabela Hash``
+- ``Árvore Binária de Busca``
+- ``Busca``
+- ``Filas com arrays``
