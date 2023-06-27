@@ -4,6 +4,7 @@ def quickSort (lista, a, b):
         quickSort(lista, a, indicePivo-1)
         quickSort(lista, indicePivo+1, b)
 
+
 def particiona(lista, a, b):
     x= lista[a]
     while a < b:
