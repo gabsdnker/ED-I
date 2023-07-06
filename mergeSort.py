@@ -8,6 +8,8 @@ def merge(A, aux, esquerda, meio, direita):
         if i > meio:
             A[k] = aux[j]
             j += 1
+
+        
         elif j > direita:
             A[k] = aux[i]
             i += 1
